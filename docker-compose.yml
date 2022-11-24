@@ -1,7 +1,7 @@
 version: '3.0' 
 services:       
   test:        
-    image: my_git       
+    image: ${DOCKER_USER_ID}/opsop       
     build: .               
     ports:                 
         - "80:80"         
