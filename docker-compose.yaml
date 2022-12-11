@@ -1,0 +1,11 @@
+version: '3.0'
+
+
+
+services: 
+  test:
+    container_name: "songmachi"
+    image: finalreview:latest
+    build: .      
+    ports:
+        - "80:80"
